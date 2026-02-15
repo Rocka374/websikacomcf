@@ -1,0 +1,19 @@
+# Canonical root
+/index.html / 301
+
+# Canonical any-folder index (nested too)
+/:splat/index.html /:splat/ 301
+
+# Development aliases -> canonical
+/wordpress-development.html /development/ 301
+/web-development.html /development/ 301
+/wp-development.html /development/ 301
+
+# Old root .html -> folders
+/seo.html /seo/ 301
+/maintenance.html /maintenance/ 301
+
+# Optional: enforce trailing slash on key pages
+/development /development/ 301
+/seo /seo/ 301
+/maintenance /maintenance/ 301

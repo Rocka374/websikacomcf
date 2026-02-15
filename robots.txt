@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://websika.com/sitemap.xml
