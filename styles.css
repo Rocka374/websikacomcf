@@ -907,12 +907,6 @@ a:hover {
   .card {
     padding: var(--space-lg);
   }
-  
-  /* Критично: Деактивиране на reveal анимациите за мобилни - чисто решение */
-  .reveal {
-    opacity: 1;
-    transform: none;
-  }
 }
 
 /* Стилове за таблети (768px до 1024px) */
