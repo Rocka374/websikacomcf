@@ -871,9 +871,9 @@ a:hover {
   
   /* Намаляване на разстоянията на мобилни */
   .hero {
-    min-height: 35vh;
-    margin-top: 50px;
-    padding-top: var(--space-md);
+    min-height: 40vh; /* Увеличено от 35vh на 40vh за повече пространство */
+    margin-top: 80px; /* Увеличено от 60px на 80px за повече разстояние от header */
+    padding-top: var(--space-xl); /* Увеличено от var(--space-md) */
     padding-bottom: var(--space-md);
   }
   
@@ -980,6 +980,12 @@ a:hover {
   
   .card-grid {
     gap: 1rem;
+  }
+  
+  /* Допълнително увеличаване на разстоянието за много малки екрани */
+  .hero {
+    margin-top: 85px; /* Още повече разстояние от header */
+    padding-top: var(--space-lg);
   }
 }
 
