@@ -20,4 +20,4 @@
 
 # Catch-all (all other paths -> home)
 # WARNING: this will redirect unknown URLs instead of returning a real 404 (soft-404 issue)
-/* / 301
+# /* / 301
