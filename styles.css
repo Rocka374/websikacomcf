@@ -1049,3 +1049,11 @@ a:hover {
 .first-section-after-hero {
   padding-top: var(--space-xl) !important;
 }
+
+/* FINAL FIX: force reveal visible on mobile */
+@media (max-width: 768px) {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
