@@ -491,7 +491,7 @@ a:hover {
   padding-top: var(--space-lg);
   padding-bottom: var(--space-lg);
   background-color: var(--color-background);
-  margin-top: 60px; /* Компенсира фиксирания хедър */
+  margin-top: 80px; /* Компенсира фиксирания хедър */
 }
 
 /* Премахване на blobs и анимации */
