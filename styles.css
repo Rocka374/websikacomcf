@@ -483,7 +483,7 @@ a:hover {
    Hero секция - ОПТИМИЗИРАНИ РАЗСТОЯНИЯ
    =========================================== */
 .hero {
-  min-height: 50vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   position: relative;
@@ -491,7 +491,7 @@ a:hover {
   padding-top: var(--space-lg);
   padding-bottom: var(--space-lg);
   background-color: var(--color-background);
-  margin-top: 80px; /* Компенсира фиксирания хедър */
+  margin-top: 100px; /* Компенсира фиксирания хедър */
 }
 
 /* Премахване на blobs и анимации */
@@ -871,7 +871,7 @@ a:hover {
   
   /* Намаляване на разстоянията на мобилни */
   .hero {
-    min-height: 50vh; /* Увеличено от 35vh на 40vh за повече пространство */
+    min-height: 70vh; /* Увеличено от 35vh на 40vh за повече пространство */
     margin-top: 80px; /* Увеличено от 60px на 80px за повече разстояние от header */
     padding-top: var(--space-xl); /* Увеличено от var(--space-md) */
     padding-bottom: var(--space-md);
